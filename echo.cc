@@ -50,7 +50,7 @@ int main(int argc, char *argv[]) {
 
       auto client = v::Dispatcher::Create(GetLoop(), fd, AE_READABLE, timeout);
       if (!client) {
-        warnx("-- <%d>-[%s:%d] error", fd, ip, port);
+        warn("-- <%d>-[%s:%d] error", fd, ip, port);
         return;
       }
 
