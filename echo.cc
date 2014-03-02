@@ -40,17 +40,19 @@ int main(int argc, char *argv[]) {
   unordered_map<int, decltype(service)> pool;
 
   service->on_accepted = [&](int fd) {
-    char ip[129];
-    int port;
+    char peer_ip[129];
+    int peer_port;
 
     auto &clients = pool;
-    auto s = anetPeerToString(fd, ip, sizeof(ip), &port);
+    auto s = anetPeerToString(fd, peer_ip, sizeof(peer_ip), &peer_port);
     if (s != -1) {
-      warnx("-- <%d>-[%s:%d] incoming", fd, ip, port);
+      warnx("-- <%d>-[%s:%d] incoming", fd, peer_ip, peer_port);
 
       auto client = v::Dispatcher::Create(GetLoop(), fd, AE_READABLE, timeout);
-      if (!client)
+      if (!client) {
         warnx("-- <%d>-[%s:%d] error", fd, ip, port);
+        return;
+      }
 
       clients[fd] = client;
 
