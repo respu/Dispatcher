@@ -1,0 +1,303 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AE_ALL_EVENTS	ae.h	/^#define AE_ALL_EVENTS /;"	d
+AE_DONT_WAIT	ae.h	/^#define AE_DONT_WAIT /;"	d
+AE_ERR	ae.h	/^#define AE_ERR /;"	d
+AE_FILE_EVENTS	ae.h	/^#define AE_FILE_EVENTS /;"	d
+AE_NOMORE	ae.h	/^#define AE_NOMORE /;"	d
+AE_NONE	ae.h	/^#define AE_NONE /;"	d
+AE_NOTUSED	ae.h	/^#define AE_NOTUSED(/;"	d
+AE_OK	ae.h	/^#define AE_OK /;"	d
+AE_READABLE	ae.h	/^#define AE_READABLE /;"	d
+AE_TIME_EVENTS	ae.h	/^#define AE_TIME_EVENTS /;"	d
+AE_WRITABLE	ae.h	/^#define AE_WRITABLE /;"	d
+AF_LOCAL	anet.h	/^#define AF_LOCAL /;"	d
+ANET_CONNECT_NONBLOCK	anet.c	/^#define ANET_CONNECT_NONBLOCK /;"	d	file:
+ANET_CONNECT_NONE	anet.c	/^#define ANET_CONNECT_NONE /;"	d	file:
+ANET_ERR	anet.h	/^#define ANET_ERR /;"	d
+ANET_ERR_LEN	anet.h	/^#define ANET_ERR_LEN /;"	d
+ANET_H	anet.h	/^#define ANET_H$/;"	d
+ANET_OK	anet.h	/^#define ANET_OK /;"	d
+BIG_ENDIAN	config.h	/^                #define BIG_ENDIAN /;"	d
+BIG_ENDIAN	config.h	/^            #define	BIG_ENDIAN	/;"	d
+BYTE_ORDER	config.h	/^                #define BYTE_ORDER	/;"	d
+BYTE_ORDER	config.h	/^                #define BYTE_ORDER /;"	d
+CXX	Makefile	/^CXX = clang++$/;"	m
+CXX_SRCS	Makefile	/^CXX_SRCS = echo.cc dispatcher.cc$/;"	m
+C_SRCS	Makefile	/^C_SRCS = ae.c anet.c zmalloc.c$/;"	m
+Create	dispatcher.cc	/^shared_ptr<Dispatcher> Dispatcher::Create($/;"	f	class:v::Dispatcher
+CreateAcceptor	dispatcher.cc	/^shared_ptr<Dispatcher> Dispatcher::CreateAcceptor($/;"	f	class:v::Dispatcher
+CreateConnector	dispatcher.cc	/^std::shared_ptr<Dispatcher> Dispatcher::CreateConnector($/;"	f	class:v::Dispatcher
+Destroy	dispatcher.cc	/^void Dispatcher::Destroy(Dispatcher *self) {$/;"	f	class:v::Dispatcher
+Dispatcher	dispatcher.h	/^class Dispatcher : public enable_shared_from_this<Dispatcher> {$/;"	c	namespace:v
+FileProc	dispatcher.cc	/^void Dispatcher::FileProc(aeEventLoop *loop, int fd, aeData data, int mask) {$/;"	f	class:v::Dispatcher
+GNUC_VERSION	config.h	/^    #define GNUC_VERSION /;"	d
+HAVE_ATOMIC	config.h	/^        #define HAVE_ATOMIC$/;"	d
+HAVE_BACKTRACE	config.h	/^    #define HAVE_BACKTRACE /;"	d
+HAVE_CXX11	config.h	/^    #define HAVE_CXX11$/;"	d
+HAVE_EPOLL	config.h	/^    #define HAVE_EPOLL /;"	d
+HAVE_EVPORT	config.h	/^        #define HAVE_EVPORT /;"	d
+HAVE_KQUEUE	config.h	/^    #define HAVE_KQUEUE /;"	d
+HAVE_MALLOC_SIZE	zmalloc.h	/^        #define HAVE_MALLOC_SIZE /;"	d
+HAVE_MALLOC_SIZE	zmalloc.h	/^    #define HAVE_MALLOC_SIZE /;"	d
+HAVE_PROC_MAPS	config.h	/^    #define HAVE_PROC_MAPS /;"	d
+HAVE_PROC_SMAPS	config.h	/^    #define HAVE_PROC_SMAPS /;"	d
+HAVE_PROC_STAT	config.h	/^    #define HAVE_PROC_STAT /;"	d
+HAVE_SYNC_FILE_RANGE	config.h	/^            #define HAVE_SYNC_FILE_RANGE /;"	d
+HAVE_TASKINFO	config.h	/^    #define HAVE_TASKINFO /;"	d
+INCPATH	Makefile	/^INCPATH = $/;"	m
+INIT_SETPROCTITLE_REPLACEMENT	config.h	/^    #define INIT_SETPROCTITLE_REPLACEMENT$/;"	d
+LIBPATH	Makefile	/^LIBPATH = $/;"	m
+LITTLE_ENDIAN	config.h	/^                #define LITTLE_ENDIAN /;"	d
+LITTLE_ENDIAN	config.h	/^            #define	LITTLE_ENDIAN	/;"	d
+MAX_EVENT_BATCHSZ	ae_evport.c	/^#define MAX_EVENT_BATCHSZ /;"	d	file:
+PDP_ENDIAN	config.h	/^            #define	PDP_ENDIAN	/;"	d
+PREFIX_SIZE	zmalloc.c	/^        #define PREFIX_SIZE /;"	d	file:
+PREFIX_SIZE	zmalloc.c	/^    #define PREFIX_SIZE /;"	d	file:
+SS_CLOSED	dispatcher.h	/^    SS_CLOSED,$/;"	e	enum:v::Dispatcher::SocketState
+SS_CONNECTED	dispatcher.h	/^    SS_CONNECTED,$/;"	e	enum:v::Dispatcher::SocketState
+SS_CONNECTING	dispatcher.h	/^    SS_CONNECTING,$/;"	e	enum:v::Dispatcher::SocketState
+SS_LISTEN	dispatcher.h	/^    SS_LISTEN,$/;"	e	enum:v::Dispatcher::SocketState
+SetMask	dispatcher.cc	/^bool Dispatcher::SetMask(int mask) {$/;"	f	class:v::Dispatcher
+SetTimeout	dispatcher.cc	/^bool Dispatcher::SetTimeout(long long timeout) {$/;"	f	class:v::Dispatcher
+SocketState	dispatcher.h	/^  enum SocketState {$/;"	g	class:v::Dispatcher
+TARGET	Makefile	/^TARGET = echo$/;"	m
+TimeProc	dispatcher.cc	/^int Dispatcher::TimeProc(aeEventLoop *loop, long long id, aeData data) {$/;"	f	class:v::Dispatcher
+USE_SETPROCTITLE	config.h	/^    #define USE_SETPROCTITLE$/;"	d
+ZMALLOC_LIB	zmalloc.h	/^    #define ZMALLOC_LIB /;"	d
+ZMALLOC_LIB	zmalloc.h	/^#define ZMALLOC_LIB /;"	d
+Zalloc	za.h	/^	Zalloc() throw () {}$/;"	f	class:v::Zalloc
+Zalloc	za.h	/^	Zalloc(const Zalloc &) throw () {}$/;"	f	class:v::Zalloc
+Zalloc	za.h	/^	Zalloc(const Zalloc<U> &) throw () {}$/;"	f	class:v::Zalloc
+Zalloc	za.h	/^class Zalloc {$/;"	c	namespace:v
+Zalloc	za.h	/^class Zalloc<void> {$/;"	c	namespace:v
+_BSD_SOURCE	fmacros.h	/^#define _BSD_SOURCE$/;"	d
+_DISPATCHER_H	dispatcher.h	/^#define _DISPATCHER_H$/;"	d
+_FILE_OFFSET_BITS	fmacros.h	/^#define _FILE_OFFSET_BITS /;"	d
+_GNU_SOURCE	fmacros.h	/^#define _GNU_SOURCE$/;"	d
+_LARGEFILE_SOURCE	fmacros.h	/^#define _LARGEFILE_SOURCE$/;"	d
+_REDIS_FMACRO_H	fmacros.h	/^#define _REDIS_FMACRO_H$/;"	d
+_XOPEN_SOURCE	fmacros.h	/^#define _XOPEN_SOURCE /;"	d
+_XOPEN_SOURCE	fmacros.h	/^#define _XOPEN_SOURCE$/;"	d
+_ZA_H	za.h	/^#define _ZA_H$/;"	d
+__AE_H__	ae.h	/^#define __AE_H__$/;"	d
+__CONFIG_H	config.h	/^#define __CONFIG_H$/;"	d
+__ZMALLOC_H	zmalloc.h	/^#define __ZMALLOC_H$/;"	d
+__str	zmalloc.h	/^#define __str(/;"	d
+__xstr	zmalloc.h	/^#define __xstr(/;"	d
+_anetTcpServer	anet.c	/^static int _anetTcpServer(char *err, int port, char *bindaddr, int af)$/;"	f	file:
+_rfds	ae_select.c	/^    fd_set _rfds, _wfds;$/;"	m	struct:aeApiState	file:
+_wfds	ae_select.c	/^    fd_set _rfds, _wfds;$/;"	m	struct:aeApiState	file:
+address	za.h	/^	const_pointer address(const_reference value) const {$/;"	f	class:v::Zalloc
+address	za.h	/^	pointer address(reference value) const {$/;"	f	class:v::Zalloc
+aeAddMillisecondsToNow	ae.c	/^static void aeAddMillisecondsToNow(long long milliseconds, long *sec, long *ms) {$/;"	f	file:
+aeApiAddEvent	ae_epoll.c	/^static int aeApiAddEvent(aeEventLoop *eventLoop, int fd, int mask) {$/;"	f	file:
+aeApiAddEvent	ae_evport.c	/^static int aeApiAddEvent(aeEventLoop *eventLoop, int fd, int mask) {$/;"	f	file:
+aeApiAddEvent	ae_kqueue.c	/^static int aeApiAddEvent(aeEventLoop *eventLoop, int fd, int mask) {$/;"	f	file:
+aeApiAddEvent	ae_select.c	/^static int aeApiAddEvent(aeEventLoop *eventLoop, int fd, int mask) {$/;"	f	file:
+aeApiAssociate	ae_evport.c	/^static int aeApiAssociate(const char *where, int portfd, int fd, int mask) {$/;"	f	file:
+aeApiCreate	ae_epoll.c	/^static int aeApiCreate(aeEventLoop *eventLoop) {$/;"	f	file:
+aeApiCreate	ae_evport.c	/^static int aeApiCreate(aeEventLoop *eventLoop) {$/;"	f	file:
+aeApiCreate	ae_kqueue.c	/^static int aeApiCreate(aeEventLoop *eventLoop) {$/;"	f	file:
+aeApiCreate	ae_select.c	/^static int aeApiCreate(aeEventLoop *eventLoop) {$/;"	f	file:
+aeApiDelEvent	ae_epoll.c	/^static void aeApiDelEvent(aeEventLoop *eventLoop, int fd, int delmask) {$/;"	f	file:
+aeApiDelEvent	ae_evport.c	/^static void aeApiDelEvent(aeEventLoop *eventLoop, int fd, int mask) {$/;"	f	file:
+aeApiDelEvent	ae_kqueue.c	/^static void aeApiDelEvent(aeEventLoop *eventLoop, int fd, int mask) {$/;"	f	file:
+aeApiDelEvent	ae_select.c	/^static void aeApiDelEvent(aeEventLoop *eventLoop, int fd, int mask) {$/;"	f	file:
+aeApiFree	ae_epoll.c	/^static void aeApiFree(aeEventLoop *eventLoop) {$/;"	f	file:
+aeApiFree	ae_evport.c	/^static void aeApiFree(aeEventLoop *eventLoop) {$/;"	f	file:
+aeApiFree	ae_kqueue.c	/^static void aeApiFree(aeEventLoop *eventLoop) {$/;"	f	file:
+aeApiFree	ae_select.c	/^static void aeApiFree(aeEventLoop *eventLoop) {$/;"	f	file:
+aeApiLookupPending	ae_evport.c	/^static int aeApiLookupPending(aeApiState *state, int fd) {$/;"	f	file:
+aeApiName	ae_epoll.c	/^static const char *aeApiName(void) {$/;"	f	file:
+aeApiName	ae_evport.c	/^static const char *aeApiName(void) {$/;"	f	file:
+aeApiName	ae_kqueue.c	/^static const char *aeApiName(void) {$/;"	f	file:
+aeApiName	ae_select.c	/^static const char *aeApiName(void) {$/;"	f	file:
+aeApiPoll	ae_epoll.c	/^static int aeApiPoll(aeEventLoop *eventLoop, struct timeval *tvp) {$/;"	f	file:
+aeApiPoll	ae_evport.c	/^static int aeApiPoll(aeEventLoop *eventLoop, struct timeval *tvp) {$/;"	f	file:
+aeApiPoll	ae_kqueue.c	/^static int aeApiPoll(aeEventLoop *eventLoop, struct timeval *tvp) {$/;"	f	file:
+aeApiPoll	ae_select.c	/^static int aeApiPoll(aeEventLoop *eventLoop, struct timeval *tvp) {$/;"	f	file:
+aeApiResize	ae_epoll.c	/^static int aeApiResize(aeEventLoop *eventLoop, int setsize) {$/;"	f	file:
+aeApiResize	ae_evport.c	/^static int aeApiResize(aeEventLoop *eventLoop, int setsize) {$/;"	f	file:
+aeApiResize	ae_kqueue.c	/^static int aeApiResize(aeEventLoop *eventLoop, int setsize) {$/;"	f	file:
+aeApiResize	ae_select.c	/^static int aeApiResize(aeEventLoop *eventLoop, int setsize) {$/;"	f	file:
+aeApiState	ae_epoll.c	/^typedef struct aeApiState {$/;"	s	file:
+aeApiState	ae_epoll.c	/^} aeApiState;$/;"	t	typeref:struct:aeApiState	file:
+aeApiState	ae_evport.c	/^typedef struct aeApiState {$/;"	s	file:
+aeApiState	ae_evport.c	/^} aeApiState;$/;"	t	typeref:struct:aeApiState	file:
+aeApiState	ae_kqueue.c	/^typedef struct aeApiState {$/;"	s	file:
+aeApiState	ae_kqueue.c	/^} aeApiState;$/;"	t	typeref:struct:aeApiState	file:
+aeApiState	ae_select.c	/^typedef struct aeApiState {$/;"	s	file:
+aeApiState	ae_select.c	/^} aeApiState;$/;"	t	typeref:struct:aeApiState	file:
+aeBeforeSleepProc	ae.h	/^typedef void (aeBeforeSleepProc)(struct aeEventLoop *eventLoop);$/;"	t
+aeCreateEventLoop	ae.c	/^aeEventLoop *aeCreateEventLoop(int setsize) {$/;"	f
+aeCreateFileEvent	ae.c	/^int aeCreateFileEvent(aeEventLoop *eventLoop, int fd, int mask,$/;"	f
+aeCreateTimeEvent	ae.c	/^long long aeCreateTimeEvent(aeEventLoop *eventLoop, long long milliseconds,$/;"	f
+aeData	ae.h	/^typedef std::weak_ptr<void> aeData;$/;"	t
+aeData	ae.h	/^typedef void * aeData;$/;"	t
+aeDeleteEventLoop	ae.c	/^void aeDeleteEventLoop(aeEventLoop *eventLoop) {$/;"	f
+aeDeleteFileEvent	ae.c	/^void aeDeleteFileEvent(aeEventLoop *eventLoop, int fd, int mask)$/;"	f
+aeDeleteTimeEvent	ae.c	/^int aeDeleteTimeEvent(aeEventLoop *eventLoop, long long id)$/;"	f
+aeEventFinalizerProc	ae.h	/^typedef void (aeEventFinalizerProc)(struct aeEventLoop *eventLoop,$/;"	t
+aeEventLoop	ae.h	/^typedef struct aeEventLoop {$/;"	s
+aeEventLoop	ae.h	/^} aeEventLoop;$/;"	t	typeref:struct:aeEventLoop
+aeFileEvent	ae.h	/^typedef struct aeFileEvent {$/;"	s
+aeFileEvent	ae.h	/^} aeFileEvent;$/;"	t	typeref:struct:aeFileEvent
+aeFileProc	ae.h	/^typedef void (aeFileProc)(struct aeEventLoop *eventLoop,$/;"	t
+aeFiredEvent	ae.h	/^typedef struct aeFiredEvent {$/;"	s
+aeFiredEvent	ae.h	/^} aeFiredEvent;$/;"	t	typeref:struct:aeFiredEvent
+aeGetApiName	ae.c	/^const char *aeGetApiName(void) {$/;"	f
+aeGetFileEvents	ae.c	/^int aeGetFileEvents(aeEventLoop *eventLoop, int fd) {$/;"	f
+aeGetSetSize	ae.c	/^int aeGetSetSize(aeEventLoop *eventLoop) {$/;"	f
+aeGetTime	ae.c	/^static void aeGetTime(long *seconds, long *milliseconds)$/;"	f	file:
+aeMain	ae.c	/^void aeMain(aeEventLoop *eventLoop) {$/;"	f
+aeProcessEvents	ae.c	/^int aeProcessEvents(aeEventLoop *eventLoop, int flags)$/;"	f
+aeResizeSetSize	ae.c	/^int aeResizeSetSize(aeEventLoop *eventLoop, int setsize) {$/;"	f
+aeSearchNearestTimer	ae.c	/^static aeTimeEvent *aeSearchNearestTimer(aeEventLoop *eventLoop)$/;"	f	file:
+aeSetBeforeSleepProc	ae.c	/^void aeSetBeforeSleepProc(aeEventLoop *eventLoop, aeBeforeSleepProc *beforesleep) {$/;"	f
+aeStop	ae.c	/^void aeStop(aeEventLoop *eventLoop) {$/;"	f
+aeTimeEvent	ae.h	/^typedef struct aeTimeEvent {$/;"	s
+aeTimeEvent	ae.h	/^} aeTimeEvent;$/;"	t	typeref:struct:aeTimeEvent
+aeTimeProc	ae.h	/^typedef int (aeTimeProc)(struct aeEventLoop *eventLoop,$/;"	t
+aeWait	ae.c	/^int aeWait(int fd, int mask, long long milliseconds) {$/;"	f
+allocate	za.h	/^	pointer allocate(size_type n, Zalloc<void>::const_pointer hint = 0) {$/;"	f	class:v::Zalloc
+anetCreateSocket	anet.c	/^static int anetCreateSocket(char *err, int domain) {$/;"	f	file:
+anetDisableTcpNoDelay	anet.c	/^int anetDisableTcpNoDelay(char *err, int fd) $/;"	f
+anetEnableTcpNoDelay	anet.c	/^int anetEnableTcpNoDelay(char *err, int fd)$/;"	f
+anetGenericAccept	anet.c	/^static int anetGenericAccept(char *err, int s, struct sockaddr *sa, socklen_t *len) {$/;"	f	file:
+anetKeepAlive	anet.c	/^int anetKeepAlive(char *err, int fd, int interval)$/;"	f
+anetListen	anet.c	/^static int anetListen(char *err, int s, struct sockaddr *sa, socklen_t len) {$/;"	f	file:
+anetNonBlock	anet.c	/^int anetNonBlock(char *err, int fd)$/;"	f
+anetPeerToString	anet.c	/^int anetPeerToString(int fd, char *ip, size_t ip_len, int *port) {$/;"	f
+anetRead	anet.c	/^int anetRead(int fd, char *buf, int count)$/;"	f
+anetResolve	anet.c	/^int anetResolve(char *err, char *host, char *ipbuf, size_t ipbuf_len)$/;"	f
+anetSetError	anet.c	/^static void anetSetError(char *err, const char *fmt, ...)$/;"	f	file:
+anetSetReuseAddr	anet.c	/^static int anetSetReuseAddr(char *err, int fd) {$/;"	f	file:
+anetSetSendBuffer	anet.c	/^int anetSetSendBuffer(char *err, int fd, int buffsize)$/;"	f
+anetSetTcpNoDelay	anet.c	/^static int anetSetTcpNoDelay(char *err, int fd, int val)$/;"	f	file:
+anetSockName	anet.c	/^int anetSockName(int fd, char *ip, size_t ip_len, int *port) {$/;"	f
+anetTcp6Server	anet.c	/^int anetTcp6Server(char *err, int port, char *bindaddr)$/;"	f
+anetTcpAccept	anet.c	/^int anetTcpAccept(char *err, int s, char *ip, size_t ip_len, int *port) {$/;"	f
+anetTcpConnect	anet.c	/^int anetTcpConnect(char *err, char *addr, int port)$/;"	f
+anetTcpGenericConnect	anet.c	/^static int anetTcpGenericConnect(char *err, char *addr, int port, int flags)$/;"	f	file:
+anetTcpKeepAlive	anet.c	/^int anetTcpKeepAlive(char *err, int fd)$/;"	f
+anetTcpNonBlockConnect	anet.c	/^int anetTcpNonBlockConnect(char *err, char *addr, int port)$/;"	f
+anetTcpServer	anet.c	/^int anetTcpServer(char *err, int port, char *bindaddr)$/;"	f
+anetUnixAccept	anet.c	/^int anetUnixAccept(char *err, int s) {$/;"	f
+anetUnixConnect	anet.c	/^int anetUnixConnect(char *err, char *path)$/;"	f
+anetUnixGenericConnect	anet.c	/^int anetUnixGenericConnect(char *err, char *path, int flags)$/;"	f
+anetUnixNonBlockConnect	anet.c	/^int anetUnixNonBlockConnect(char *err, char *path)$/;"	f
+anetUnixServer	anet.c	/^int anetUnixServer(char *err, char *path, mode_t perm)$/;"	f
+anetV6Only	anet.c	/^static int anetV6Only(char *err, int s) {$/;"	f	file:
+anetWrite	anet.c	/^int anetWrite(int fd, char *buf, int count)$/;"	f
+aof_fsync	config.h	/^    #define aof_fsync /;"	d
+apidata	ae.h	/^    void *apidata; \/* This is used for polling API specific data *\/$/;"	m	struct:aeEventLoop
+beforesleep	ae.h	/^    aeBeforeSleepProc *beforesleep;$/;"	m	struct:aeEventLoop
+calloc	zmalloc.c	/^    #define calloc(/;"	d	file:
+clientData	ae.h	/^    aeData clientData;$/;"	m	struct:aeFileEvent
+clientData	ae.h	/^    aeData clientData;$/;"	m	struct:aeTimeEvent
+const_pointer	za.h	/^	typedef const T * const_pointer;$/;"	t	class:v::Zalloc
+const_pointer	za.h	/^	typedef const void * const_pointer;$/;"	t	class:v::Zalloc
+const_reference	za.h	/^	typedef const T & const_reference;$/;"	t	class:v::Zalloc
+construct	za.h	/^	void construct(pointer p, const value_type &value) {$/;"	f	class:v::Zalloc
+deallocate	za.h	/^	void deallocate(pointer p, size_type n) {$/;"	f	class:v::Zalloc
+destroy	za.h	/^	void destroy(pointer p) {$/;"	f	class:v::Zalloc
+difference_type	za.h	/^	typedef ptrdiff_t difference_type;$/;"	t	class:v::Zalloc
+epfd	ae_epoll.c	/^    int epfd;$/;"	m	struct:aeApiState	file:
+err	dispatcher.cc	/^static char err[ANET_ERR_LEN];$/;"	m	namespace:v	file:
+events	ae.h	/^    aeFileEvent *events; \/* Registered events *\/$/;"	m	struct:aeEventLoop
+events	ae_epoll.c	/^    struct epoll_event *events;$/;"	m	struct:aeApiState	typeref:struct:aeApiState::epoll_event	file:
+events	ae_kqueue.c	/^    struct kevent *events;$/;"	m	struct:aeApiState	typeref:struct:aeApiState::kevent	file:
+evport_debug	ae_evport.c	/^static int evport_debug = 0;$/;"	v	file:
+fd	ae.h	/^    int fd;$/;"	m	struct:aeFiredEvent
+fd_	dispatcher.h	/^  int fd_ = ANET_ERR;$/;"	m	class:v::Dispatcher
+finalizerProc	ae.h	/^    aeEventFinalizerProc *finalizerProc;$/;"	m	struct:aeTimeEvent
+fired	ae.h	/^    aeFiredEvent *fired; \/* Fired events *\/$/;"	m	struct:aeEventLoop
+free	zmalloc.c	/^    #define free(/;"	d	file:
+id	ae.h	/^    long long id; \/* time event identifier. *\/$/;"	m	struct:aeTimeEvent
+id_	dispatcher.h	/^  int id_ = AE_ERR;$/;"	m	class:v::Dispatcher
+kqfd	ae_kqueue.c	/^    int kqfd;$/;"	m	struct:aeApiState	file:
+lastTime	ae.h	/^    time_t lastTime;     \/* Used to detect system clock skew *\/$/;"	m	struct:aeEventLoop
+loop_	dispatcher.h	/^  weak_ptr<aeEventLoop> loop_;$/;"	m	class:v::Dispatcher
+main	echo.cc	/^int main(int argc, char *argv[]) {$/;"	f
+malloc	zmalloc.c	/^    #define malloc(/;"	d	file:
+mask	ae.h	/^    int mask; \/* one of AE_(READABLE|WRITABLE) *\/$/;"	m	struct:aeFileEvent
+mask	ae.h	/^    int mask;$/;"	m	struct:aeFiredEvent
+mask_	dispatcher.h	/^  int mask_ = AE_NONE;$/;"	m	class:v::Dispatcher
+max_size	za.h	/^	size_type max_size() const throw () {$/;"	f	class:v::Zalloc
+maxfd	ae.h	/^    int maxfd;   \/* highest file descriptor currently registered *\/$/;"	m	struct:aeEventLoop
+next	ae.h	/^    struct aeTimeEvent *next;$/;"	m	struct:aeTimeEvent	typeref:struct:aeTimeEvent::aeTimeEvent
+npending	ae_evport.c	/^    int     npending;                           \/* # of pending fds *\/$/;"	m	struct:aeApiState	file:
+on_accepted	dispatcher.h	/^  function<void(int fd)> on_accepted = [](int fd) { close(fd); };$/;"	m	class:v::Dispatcher
+on_closed	dispatcher.h	/^  function<void(int fd)> on_closed;$/;"	m	class:v::Dispatcher
+on_connected	dispatcher.h	/^  function<void(int fd)> on_connected;$/;"	m	class:v::Dispatcher
+on_timedout	dispatcher.h	/^  function<int(int fd, long long timeout)> on_timedout;$/;"	m	class:v::Dispatcher
+operator !=	za.h	/^bool operator!=(const Zalloc<T> &, const Zalloc<U> &) throw () {$/;"	f	namespace:v
+operator ==	za.h	/^bool operator==(const Zalloc<T> &, const Zalloc<U> &) throw () {$/;"	f	namespace:v
+operator delete	dispatcher.h	/^  static void operator delete(void *p) {$/;"	f	class:v::Dispatcher
+operator new	dispatcher.h	/^  static void * operator new(size_t n) {$/;"	f	class:v::Dispatcher
+other	za.h	/^	struct rebind { typedef Zalloc<U> other; };$/;"	t	struct:v::Zalloc::rebind
+pending_fds	ae_evport.c	/^    int     pending_fds[MAX_EVENT_BATCHSZ];     \/* pending fds *\/$/;"	m	struct:aeApiState	file:
+pending_masks	ae_evport.c	/^    int     pending_masks[MAX_EVENT_BATCHSZ];   \/* pending fds' masks *\/$/;"	m	struct:aeApiState	file:
+pointer	za.h	/^	typedef T * pointer;$/;"	t	class:v::Zalloc
+pointer	za.h	/^	typedef void * pointer;$/;"	t	class:v::Zalloc
+portfd	ae_evport.c	/^    int     portfd;                             \/* event port *\/$/;"	m	struct:aeApiState	file:
+processTimeEvents	ae.c	/^static int processTimeEvents(aeEventLoop *eventLoop) {$/;"	f	file:
+rdb_fsync_range	config.h	/^    #define rdb_fsync_range(/;"	d
+read	dispatcher.h	/^  function<void(int fd)> read;$/;"	m	class:v::Dispatcher
+readable	dispatcher.h	/^  function<bool()> readable = []() { return true; };$/;"	m	class:v::Dispatcher
+realloc	zmalloc.c	/^    #define realloc(/;"	d	file:
+rebind	za.h	/^	struct rebind { typedef Zalloc<U> other; };$/;"	s	class:v::Zalloc
+redis_fstat	config.h	/^    #define redis_fstat /;"	d
+redis_stat	config.h	/^    #define redis_stat /;"	d
+reference	za.h	/^	typedef T & reference;$/;"	t	class:v::Zalloc
+rfds	ae_select.c	/^    fd_set rfds, wfds;$/;"	m	struct:aeApiState	file:
+rfileProc	ae.h	/^    aeFileProc *rfileProc;$/;"	m	struct:aeFileEvent
+setsize	ae.h	/^    int setsize; \/* max number of file descriptors tracked *\/$/;"	m	struct:aeEventLoop
+size_type	za.h	/^	typedef size_t size_type;$/;"	t	class:v::Zalloc
+state_	dispatcher.h	/^  SocketState state_ = SS_CLOSED;$/;"	m	class:v::Dispatcher
+stop	ae.h	/^    int stop;$/;"	m	struct:aeEventLoop
+timeEventHead	ae.h	/^    aeTimeEvent *timeEventHead;$/;"	m	struct:aeEventLoop
+timeEventNextId	ae.h	/^    long long timeEventNextId;$/;"	m	struct:aeEventLoop
+timeProc	ae.h	/^    aeTimeProc *timeProc;$/;"	m	struct:aeTimeEvent
+timeout_	dispatcher.h	/^  long long timeout_ = AE_NOMORE;$/;"	m	class:v::Dispatcher
+update_zmalloc_stat_add	zmalloc.c	/^    #define update_zmalloc_stat_add(/;"	d	file:
+update_zmalloc_stat_alloc	zmalloc.c	/^#define update_zmalloc_stat_alloc(/;"	d	file:
+update_zmalloc_stat_free	zmalloc.c	/^#define update_zmalloc_stat_free(/;"	d	file:
+update_zmalloc_stat_sub	zmalloc.c	/^    #define update_zmalloc_stat_sub(/;"	d	file:
+used_memory	zmalloc.c	/^static size_t used_memory = 0;$/;"	v	file:
+used_memory_mutex	zmalloc.c	/^pthread_mutex_t used_memory_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+v	dispatcher.cc	/^namespace v {$/;"	n	file:
+v	dispatcher.h	/^namespace v {$/;"	n
+v	za.h	/^namespace v {$/;"	n
+value_type	za.h	/^	typedef T value_type;$/;"	t	class:v::Zalloc
+value_type	za.h	/^	typedef void value_type;$/;"	t	class:v::Zalloc
+wfds	ae_select.c	/^    fd_set rfds, wfds;$/;"	m	struct:aeApiState	file:
+wfileProc	ae.h	/^    aeFileProc *wfileProc;$/;"	m	struct:aeFileEvent
+when_ms	ae.h	/^    long when_ms; \/* milliseconds *\/$/;"	m	struct:aeTimeEvent
+when_sec	ae.h	/^    long when_sec; \/* seconds *\/$/;"	m	struct:aeTimeEvent
+writable	dispatcher.h	/^  function<bool()> writable = []() { return true; };$/;"	m	class:v::Dispatcher
+write	dispatcher.h	/^  function<void(int fd)> write;$/;"	m	class:v::Dispatcher
+zcalloc	zmalloc.c	/^void *zcalloc(size_t size) {$/;"	f
+zfree	zmalloc.c	/^void zfree(void *ptr) {$/;"	f
+zlibc_free	zmalloc.c	/^void zlibc_free(void *ptr) {$/;"	f
+zmalloc	zmalloc.c	/^void *zmalloc(size_t size) {$/;"	f
+zmalloc_default_oom	zmalloc.c	/^static void zmalloc_default_oom(size_t size) {$/;"	f	file:
+zmalloc_enable_thread_safeness	zmalloc.c	/^void zmalloc_enable_thread_safeness(void) {$/;"	f
+zmalloc_get_fragmentation_ratio	zmalloc.c	/^float zmalloc_get_fragmentation_ratio(void) {$/;"	f
+zmalloc_get_private_dirty	zmalloc.c	/^size_t zmalloc_get_private_dirty(void) {$/;"	f
+zmalloc_get_rss	zmalloc.c	/^size_t zmalloc_get_rss(void) {$/;"	f
+zmalloc_oom_handler	zmalloc.c	/^static void (*zmalloc_oom_handler)(size_t) = zmalloc_default_oom;$/;"	v	file:
+zmalloc_set_oom_handler	zmalloc.c	/^void zmalloc_set_oom_handler(void (*oom_handler)(size_t)) {$/;"	f
+zmalloc_size	zmalloc.c	/^size_t zmalloc_size(void *ptr) {$/;"	f
+zmalloc_size	zmalloc.h	/^        #define zmalloc_size(/;"	d
+zmalloc_size	zmalloc.h	/^    #define zmalloc_size(/;"	d
+zmalloc_thread_safe	zmalloc.c	/^static int zmalloc_thread_safe = 0;$/;"	v	file:
+zmalloc_used_memory	zmalloc.c	/^size_t zmalloc_used_memory(void) {$/;"	f
+zrealloc	zmalloc.c	/^void *zrealloc(void *ptr, size_t size) {$/;"	f
+zstrdup	zmalloc.c	/^char *zstrdup(const char *s) {$/;"	f
+~Zalloc	za.h	/^	~Zalloc() throw () {}$/;"	f	class:v::Zalloc
